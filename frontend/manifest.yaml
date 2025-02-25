@@ -4,7 +4,7 @@ metadata:
   name: frontend
   namespace: expense
 data:
-  nginx.conf: | # | represents multi line file
+  nginx.conf: |                  # | represents multi line file
     user www-data;
     worker_processes 4;
     pid /var/run/nginx.pid;
